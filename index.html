@@ -9,15 +9,19 @@
 </head>
 
 <body>
+    
 
     <div class="container">
-        <h3>Add an animal</h3>
+        <h3>Add A Person</h3>
 
-        <!-- Movies will get dumped here -->
-        <div id="buttons-view"></div>
+        <!-- person will be added here -->
+        <div id="buttons-view">
+            <button data-person="Brian Griffin">Brian Griffin</button>
+            <button data-person="Peter Griffin">Peter Griffin</button>
+            <button data-person="Stewie Griffin">Stewie Griffin</button>
+        </div>
 
-        <form id="movie-form">
-            <label for="movie-input"></label>
+        <form id="person-form">
             <input type="text" id="family-input">
             <br>
 
@@ -25,7 +29,8 @@
             <input id="add-person" type="submit" value="Submit">
         </form>
 
-
+        <div id="gifs-appear-here">
+        </div>
 
         <!--JQUIRY-->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
